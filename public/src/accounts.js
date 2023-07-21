@@ -44,38 +44,6 @@ function getBooksPossessedByAccount(account, books, authors) {
   }
   return borrowed
 } 
-const variable = getBooksPossessedByAccount("5f446f2e6059326d9feb9a68", books, authors)
-console.log(variable)
-console.log("hello world")
-//let accessBookObject = books[0]
-//accessBookObject["author"] = authors[0]
-
-
-
-/*
-  [
-    {
-      id: "5f447132320b4bc16f950076",
-      title: "est voluptate nisi",
-      genre: "Classics",
-      authorId: 12,
-      author: {
-        id: 12,
-        name: {
-          first: "Chrystal",
-          last: "Lester",
-        },
-      },
-      borrows: [
-        {
-          id: "5f446f2e6059326d9feb9a68",
-          returned: false,
-        },
-        ...
-      ],
-    },
-  ]
-*/
 
 module.exports = {
   findAccountById,
